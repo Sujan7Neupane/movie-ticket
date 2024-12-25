@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main-section {
+  background-color: rgb(249, 241, 254);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  min-width: 80%;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.movie-details,
+.booking-page {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  max-width: 40%;
+  flex-grow: 1;
+}
+
+.image-div {
+  background-image: url("./images/movie-poster.webp");
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.details-div .row {
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+  margin: 1rem 0;
+}
+
+.details-div .desc {
+  margin-bottom: 1rem;
+}
+
+.cast h2 {
+  margin-bottom: 0.5rem;
+}
+
+.image-container {
+  width: 60%;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.image-container .box {
+  width: 20%;
+  border-radius: 0.5rem;
+}
+
+.image-container .box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.buyTicketBtn {
+  padding: 0.5rem;
+  width: 100%;
+  background-color: rgb(255, 124, 80);
+  color: #fff;
+  border-radius: 0.5rem;
+  border: none;
+}
